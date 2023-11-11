@@ -1,0 +1,174 @@
+body { 
+    margin: 0;
+    background-color: white;
+    font-size: 13px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+header {
+    width: 100 px;
+    height: 60px;
+}
+
+header nav {
+    display:flex;
+    justify-content: flex-end;
+}
+
+header .nav-right-section {
+    width: 250px;
+    height: auto;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    /*Eliminar linea debajo del ancla*/
+    text-decoration: none;
+    color:black;
+    margin-right: 20px;
+}
+
+.menu {
+    background-image: url(https://img.icons8.com/ios-glyphs/90/000000/circled-menu.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+}
+
+nav .nav-right-section img {
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+}
+
+/***************************************************************************************************************/
+main {
+    margin-top: 200px;
+    text-align: center;
+}
+
+main .mainlogo {
+    margin: 0 auto;
+    width: 530px;
+    height: 90px;
+}
+
+main .main-input {
+    width: 530px;
+    margin: 0 auto;
+}
+
+main .main-input-container {
+    border: 1px solid #D3D3D3;
+    border-radius: 40px;
+    width: 550px;
+    margin-top: 20px;
+}
+
+main .main-input-container:hover {
+box-shadow: 2px 2px 2px 2px grey;
+}
+main .main-input input {
+    height: 35px;
+    border: none;
+    outline: none;
+    width: 450px;
+}
+
+
+main .main-input .search-icon{
+    background-image: url(https://cdn-icons-png.flaticon.com/512/3031/3031293.png);
+    background-position: center;
+    background-size: contain;
+    width: 25px;
+    background-repeat: no-repeat;
+    height: 10px;
+    padding-left: 6%;
+
+
+}
+main .main-input .micro-icon{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/726px-Google_mic.svg.png);
+    background-size: contain;
+    width: 20px;
+    background-repeat: no-repeat;
+    height: 20px;
+    padding-left: 10px;
+
+}
+
+main .main-input .cam-icon{
+    background-image: url(https://static.wikia.nocookie.net/logopedia/images/2/2b/Google_Lens_2021.svg) ;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-right: 10%;
+    margin-left: 2px;
+}
+
+button {
+    margin-top: 30px;
+}
+
+
+.buscar {
+    margin-left: 38%;
+    text-align: center;
+    padding-left: 19px;
+    padding-right: 0%;
+}
+
+.suerte {
+    margin-left: 3%;
+    text-align: center;
+    padding-left: 19px;
+    padding-right: 0%;
+}
+
+footer .otis{
+    color: blue;
+    margin-left: 565px;
+}
+
+.links p {
+    font-size: 22px;
+    margin-left: 20px;
+    padding-top: 3px;
+}
+
+.links {
+    font-size: 14px;
+    align-items: flex-end;
+    padding-left: 5px;
+    width: 100%;
+    height: 120px;
+    color: rgb(54, 52, 52);
+    background-color: #e7e3e3;
+    float: left;
+}
+
+.links a:hover{
+    text-decoration:underline;
+}
+
+.left-about {
+    margin-left: 50px;
+    float: left;
+}
+
+.left {
+    margin-left: 10px;
+}
+
+.right-privacy {
+    margin-left: 250px;
+}
+
+
+.right {
+    margin-left: 20px;
+}
